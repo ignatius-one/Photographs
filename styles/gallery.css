@@ -79,12 +79,7 @@ body::-webkit-scrollbar-track {
 /* --------header ------position  */
 
 
-.square{
-    padding: 12px;
-    width: 90%;
-    margin: .75rem auto;
-    border: 2px solid var(--pinkred);
-}
+
 /* title h1 inside square  */
 .h1-square{
     color: var(--white);
@@ -119,48 +114,14 @@ body::-webkit-scrollbar-track {
     display: flex;
     flex-direction: row;
 }
-/* titles aside img  */
-.title4{
-    color: var(--white);
-    padding: 11px;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 2px;
-   
-}
 
-/* ---------style buton  */
-.boton{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    border: 2px solid var(--blueaqua);
-    padding: 12px;
-    border-radius: 12px;
-    align-self: center;
-}
 
-.boton a{
-    color:var(--white);
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: 'Bebas Neue', cursive;
-    transition: 2s;
-}
-.boton a:hover{
-    color: var(--Yellow);
-}
-/* end style button  */
 
-/* flex between text and button GALLERY */
-.flex-text-and-button{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 
 /* -------------fooooter  */
 footer{
+
     color: var(--white);
     position: relative;
     background-color: var(--pinkred);
@@ -188,6 +149,24 @@ footer{
     font-size: 18px;
     font-weight: bold;
 }
+
+/* ----gallery */
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin:  0 auto;
+    padding-bottom: 12px;
+    width: 90%;
+    border: 2px solid var(--pinkred);
+}
+.imgenes{
+    margin-top: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
 
 
 :root{
