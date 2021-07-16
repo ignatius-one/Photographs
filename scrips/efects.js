@@ -1,3 +1,8 @@
+document.getElementById('no-work').addEventListener('click', () => {
+  alert('not available')
+}) 
+
+
 particlesJS({
   "particles": {
     "number": {
